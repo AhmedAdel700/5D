@@ -1,0 +1,96 @@
+.home {
+  height: calc(100vh - 200px);
+  display: flex;
+  position: relative;
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.box {
+  margin: 2rem 0 0;
+}
+
+.box .info {
+  gap: 15px;
+}
+
+.name {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.name::after {
+  content: url("../../assets/Highlight.png");
+  position: absolute;
+  top: -30px;
+  left: 90%;
+}
+
+.btn-home {
+  width: 220px;
+  height: 55px;
+  background-image: linear-gradient(to right, #b224ef, #7579ff);
+  border: 1.5px solid black !important;
+  border-radius: 16px !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  position: relative;
+}
+
+.palette-img {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  padding-top: 25px;
+}
+
+.palette-img img {
+  width: 100%;
+}
+
+.arrow2 {
+  width: 200px;
+  height: 200px;
+  padding-top: 4rem;
+}
+
+.arrow2 img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .right-section {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 0 2.5rem !important;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .arrow2 {
+    width: 120px;
+    height: 120px;
+    padding-top: 2.5rem;
+  }
+
+  .palette-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .btn-home {
+    width: 165px;
+    height: 40px;
+  }
+}
