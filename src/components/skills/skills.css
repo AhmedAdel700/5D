@@ -1,0 +1,38 @@
+.skills-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills-pic {
+  margin-bottom: 2rem;
+  align-self: flex-start;
+  margin-bottom: 5rem;
+}
+
+.pie-chart-container {
+  border-radius: 50%; /* To make the container round */
+  /* overflow: hidden; 
+  pointer-events: none;  */
+}
+
+@media (max-width: 768px) {
+  .pie-chart-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+.boxx {
+  position: relative;
+}
+.percentage {
+  position: absolute;
+  color: #5f6073;
+  font-weight: 700;
+  font-size: 36px;
+  left: 50%;
+  top: 38%;
+  transform: translate(-50%, -50%);
+}
