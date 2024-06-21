@@ -57,7 +57,12 @@ export default function Header() {
               <Button
                 className="btn-header-collapse"
                 variant="none"
-                style={{ backgroundColor: "#7579FF", color: "#FFFFFF" }}
+                style={{
+                  backgroundColor: "#7579FF",
+                  color: "#FFFFFF",
+                  cursor: "pointer",
+                  zIndex: "3",
+                }}
               >
                 Contact Me
               </Button>
@@ -67,7 +72,12 @@ export default function Header() {
         <Button
           className="btn-header"
           variant="none"
-          style={{ backgroundColor: "#7579FF", color: "#FFFFFF" }}
+          style={{
+            backgroundColor: "#7579FF",
+            color: "#FFFFFF",
+            cursor: "pointer",
+            zIndex: "3",
+          }}
         >
           Contact Me
         </Button>

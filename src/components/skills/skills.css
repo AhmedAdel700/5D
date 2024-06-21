@@ -4,25 +4,28 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  position: relative;
 }
 
 .skills-pic {
   align-self: flex-start;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
+}
+
+.skills-hr {
+  background-color: #edeeff;
+  height: 2px;
+  width: 85%;
+  align-self: center;
+  margin-bottom: 4rem;
 }
 
 .pie-chart-container {
-  border-radius: 50%; /* To make the container round */
+  border-radius: 50%;
   /* overflow: hidden; 
   pointer-events: none;  */
 }
 
-@media (max-width: 768px) {
-  .pie-chart-container {
-    width: 100px;
-    height: 100px;
-  }
-}
 .box {
   position: relative;
 }
@@ -34,4 +37,80 @@
   left: 50%;
   top: 38%;
   transform: translate(-50%, -50%);
+}
+
+.dots3 {
+  position: absolute;
+  top: 13%;
+  left: -10%;
+}
+
+.dots4 {
+  position: absolute;
+  top: 55%;
+  left: 99.3%;
+}
+
+.dots5 {
+  position: absolute;
+  top: 95%;
+  left: -10%;
+}
+
+.ellipse3 {
+  position: absolute;
+  top: 0;
+  right: -9.9%;
+}
+
+.ellipse4 {
+  position: absolute;
+  top: 75%;
+  left: -10%;
+}
+
+@media (max-width: 1050px) {
+  .dots3 {
+    position: absolute;
+    top: 13%;
+    left: -5%;
+    z-index: -1;
+  }
+  .dots4 {
+    display: none;
+  }
+  .dots5 {
+    display: none;
+  }
+  .ellipse4 {
+    display: none;
+  }
+  .skills-section {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 992px) {
+  .dots3 {
+    position: absolute;
+    top: 8%;
+    left: -10%;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    overflow: hidden;
+  }
+  .pie-chart-container {
+    width: 100px;
+    height: 100px;
+  }
+  .dots3 {
+    position: absolute;
+    top: 7%;
+    left: -5%;
+    z-index: -1;
+  }
 }
