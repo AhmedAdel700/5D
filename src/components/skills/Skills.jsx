@@ -19,7 +19,7 @@ export default function Skills() {
             md={6}
             sm={6}
             xs={6}
-            className="mb-5 pb-3 d-flex flex-column align-items-center"
+            className="mb-5 pb-3 d-flex flex-column align-items-center box"
           >
             <PieChart data={{ percentage: skill.percentage }} size={150} />
             <span className="mt-3">{skill.skillName}</span>
