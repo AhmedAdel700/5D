@@ -50,6 +50,31 @@
   top: 8%;
 }
 
+.about-dots1 {
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+
+.about-dots2 {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  z-index: 3;
+}
+
+.about-dots1 img,
+.about-dots2 img {
+  width: 100%;
+}
+
+.ellipse39 {
+  position: absolute;
+  right: 0;
+  bottom: -10%;
+  z-index: 2;
+}
+
 @media (max-width: 1050px) {
   .about .group {
     top: 480px;
@@ -69,6 +94,16 @@
   .about .group {
     top: 550px;
     left: 50%;
+  }
+
+  .about-dots1 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .about-dots2 {
+    width: 100px;
+    height: 100px;
   }
 }
 

@@ -1,6 +1,11 @@
 import "./about.css";
-import lines from '../../assets/lines.png';
-import group from '../../assets/Group 28.png'
+import lines from "../../assets/lines.png";
+import group from "../../assets/Group 28.png";
+
+import dots1 from "../../assets/aboutdots1.png";
+import dots2 from "../../assets/aboutdots2.png";
+
+import ellipse39 from "../../assets/Ellipse 39.png";
 
 export default function About() {
   return (
@@ -23,6 +28,18 @@ export default function About() {
 
       <div className="group">
         <img src={group} alt="complex shape" />
+      </div>
+
+      <div className="about-dots1">
+        <img src={dots1} alt="complex shape" />
+      </div>
+
+      <div className="about-dots2">
+        <img src={dots2} alt="complex shape" />
+      </div>
+
+      <div className="ellipse39">
+        <img src={ellipse39} alt="ellipse shape" />
       </div>
 
       <h1>About Me</h1>
