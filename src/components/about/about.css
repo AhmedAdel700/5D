@@ -50,11 +50,12 @@
   top: 8%;
 }
 
-
 @media (max-width: 1050px) {
   .about .group {
     top: 480px;
     left: 50%;
+    width: 770px;
+    height: 770px;
   }
 
   .about .group::before {
