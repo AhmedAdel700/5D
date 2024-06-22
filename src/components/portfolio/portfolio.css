@@ -60,7 +60,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
   .work {
     gap: 1rem;
     padding: 15rem 3rem 2rem;

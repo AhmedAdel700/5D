@@ -39,6 +39,31 @@
   padding-bottom: 1rem;
 }
 
+@media (max-width: 1050px) {
+  .card {
+    min-width: 300px !important;
+    min-height: 220px;
+    border-radius: 20px !important;
+    transform: translateX(50%);
+    margin: 0 1rem;
+  }
+  .card-pic {
+    width: 250px;
+    height: auto;
+    transform: translateY(-40%);
+  }
+
+  .card h4 {
+    margin-top: -2rem;
+    padding-left: 1rem;
+  }
+
+  .card p {
+    padding-left: 1rem;
+  }
+}
+
+
 @media (max-width: 768px) {
   .card {
     min-width: 160px !important;
