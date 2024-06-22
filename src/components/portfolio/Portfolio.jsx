@@ -1,9 +1,11 @@
 import "./portfolio.css";
+
 import portfolio from "../../assets/Portfolio.png";
-
 import card1 from "../../assets/card1.png";
-
+import pdots from "../../assets/Pdots.png";
+import ellipse40 from "../../assets/Ellipse 40.png";
 import Card from "../portfolio/card/Card";
+
 const cardData = [
   {
     id: 1,
@@ -36,7 +38,16 @@ export default function Portfolio() {
         <div className="portfolio-pic">
           <img src={portfolio} alt="portfolio text" />
         </div>
+
         <hr className="hr-portfolio " />
+
+        <div className="portfolio-dots">
+          <img src={pdots} alt="dots shape" />
+        </div>
+
+        <div className="ellipse40 ">
+          <img src={ellipse40} alt="ellipse shape" />
+        </div>
 
         <div className="work">{renderedCard}</div>
       </section>
